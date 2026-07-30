@@ -34,7 +34,9 @@ use crate::{
 };
 
 pub mod commands;
+pub mod config;
 pub mod events;
+mod ext;
 pub mod forms;
 /// Constants for plugin permissions.
 ///
